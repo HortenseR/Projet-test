@@ -43,7 +43,27 @@ ul li {
     display: block;
     width:160px;
 }
+html, body {
+        height: 100%;
+}
 main {max-width: 1500px, center;
+    min-height: calc(120% - 345px);
 }
 
+body {
+background-image: url(image/fond2.png)
+}
 
+header .active {
+background-color: #FEFEFE;
+padding: 5px 10px 5px 10px; 
+}
+
+footer {
+        background: pink;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+footer li {display: inline-block;
+    width: 33%;
+    text-align: center;}
